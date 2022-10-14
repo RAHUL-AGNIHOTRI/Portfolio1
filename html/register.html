@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <div class="p-5 m-5 d-flex align-content-center justify-content-center" style="background: white;">
+        <h3>Create Account</h3><br>
+        <div class="form-span">
+            <form class="signUp-form">
+                <span class="form-group">
+                    <label for="firstname">First Name : </label>
+                    <input type="text" name="firstname" id="firstname" required placeholder="first-name">
+                </span>
+                <br><br>
+                <span class="form-group">
+                    <label for="lastname">Last Name : </label>
+                    <input type="text" name="lastname" id="lastname" required placeholder="last-name">
+                </span>
+                <br><br>
+                <span class="form-group">
+                    <label for="email">Email : </label>
+                    <input type="email" name="email" id="email" required placeholder="email">
+                </span>
+                <br><br>
+                <span class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" required placeholder="password">
+                </span>
+                <br><br>
+                <span class="form-group">
+                    <label for="re-password">Password:</label>
+                    <input type="password" name="re-password" id="re-password" required placeholder="confirm password">
+                </span>
+                <br><br>
+                <span class="form-group">
+                    <label for="gender">Gender : </label>
+                    <select name="gender" id="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </span>
+                <br>
+                <br>
+                <span>
+                    <input class="button" type="submit" value="Submit"></button>
+                </span>
+            </form>
+        </div>
+    </div> -->
+
+    <div class="container m-3 p-3 w-50 d-grid container-fluid">
+        <div>
+            <h3>Please Register Yourself</h3>
+        </div>
+        <form class="signUp-form">
+            <div class="mb-3">
+                <label for="firstname">First Name : </label>
+                <input type="text" class="form-control" id="firstname" required>
+            </div>
+            <div class="mb-3">
+                <label for="lastname">Last Name : </label>
+                <input type="text" class="form-control" id="lastname" required>
+            </div>
+            <div class="mb-3">
+                <label for="email">Email : </label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required
+                    placeholder="email@some.com">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="password">Password : </label>
+                <input type="password" class="form-control" id="password" required>
+            </div>
+            <div class="mb-3">
+                <label for="lastname">Confirm Password : </label>
+                <input type="password" class="form-control" id="re-password" required>
+            </div>
+
+            <div class="mb-3 form-check">
+                <label class="form-check-label" for="gender">Gender : </label>
+                <select name="gender" id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Submit">
+        </form>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <script src="../js/register.js"></script>
+
+</body>
+
+</html>
